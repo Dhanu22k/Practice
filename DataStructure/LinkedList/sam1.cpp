@@ -6,10 +6,10 @@ typedef struct NODE
     NODE *next;
 }node;
 
-// int main()
-// {
-//     node head;
-//     head.data = 10;
-//     cout<<head.data<<endl;
-//     return 0;
-// }
+int main()
+{
+    node head;
+    head.data = 10;
+    cout<<head.data<<endl;
+    return 0;
+}
