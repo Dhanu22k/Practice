@@ -9,7 +9,7 @@ private:
 
 public:
     Stack() {
-        top = -1;  // Initialize top to -1 (empty stack)
+        top = -1;  
     }
 
     void Push(int data) {
@@ -58,7 +58,7 @@ void pushData(Stack& stack) {
 }
 
 int main() {
-    Stack stack;  // Create a Stack object
+    Stack stack;  
 
     cout << "Stack operations" << endl;
     while (true) {
@@ -68,16 +68,16 @@ int main() {
 
         switch (choice) {
         case 1:
-            pushData(stack);  // Push data onto the stack
+            pushData(stack);  
             break;
         case 2:
-            stack.Pop();  // Pop the top element
+            stack.Pop();  
             break;
         case 3:
-            stack.Display();  // Display the stack
+            stack.Display();  
             break;
         case 4:
-            return 0;  // Exit the program
+            return 0;  
         default:
             cout << "Invalid choice" << endl;
         }
