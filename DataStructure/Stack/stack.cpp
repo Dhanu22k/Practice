@@ -57,31 +57,31 @@ void pushData(Stack& stack) {
     stack.Push(data);
 }
 
-int main() {
-    Stack stack;  
+// int main() {
+//     Stack stack;  
 
-    cout << "Stack operations" << endl;
-    while (true) {
-        cout << "1.PUSH  2.POP  3.DISPLAY  4.EXIT" << endl;
-        int choice;
-        cin >> choice;
+//     cout << "Stack operations" << endl;
+//     while (true) {
+//         cout << "1.PUSH  2.POP  3.DISPLAY  4.EXIT" << endl;
+//         int choice;
+//         cin >> choice;
 
-        switch (choice) {
-        case 1:
-            pushData(stack);  
-            break;
-        case 2:
-            stack.Pop();  
-            break;
-        case 3:
-            stack.Display();  
-            break;
-        case 4:
-            return 0;  
-        default:
-            cout << "Invalid choice" << endl;
-        }
-    }
+//         switch (choice) {
+//         case 1:
+//             pushData(stack);  
+//             break;
+//         case 2:
+//             stack.Pop();  
+//             break;
+//         case 3:
+//             stack.Display();  
+//             break;
+//         case 4:
+//             return 0;  
+//         default:
+//             cout << "Invalid choice" << endl;
+//         }
+//     }
 
-    return 0;
-}
+//     return 0;
+// }
