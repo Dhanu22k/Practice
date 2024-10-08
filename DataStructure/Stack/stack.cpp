@@ -35,7 +35,7 @@ public:
             cout << "Stack is empty" << endl;
             return;
         }
-        cout << "---------Stack items are------------" << endl;
+        cout << "---------Stack items are-----------" << endl;
         for (int i = top; i >= 0; i--) {
             cout << stack[i] << endl;
         }
